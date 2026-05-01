@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>National Records — Brunei Aquatics</title>
+<meta name="description" content="National Open and National Age Group swimming records — Brunei Aquatics (BASA).">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>Hassanal Bolkiah National Swimming Complex · contact@bruneiaquatics.com</div>
+    <div class="socials">
+      <a href="https://facebook.com/BASABrunei" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://instagram.com/bdsa_brunei" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Brunei Aquatics logo">
+        <span class="brand-text">Brunei Aquatics<small>National Governing Body</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="records.html">Records</a></li>
+        <li><a href="selections.html">Selections</a></li>
+        <li><a href="agm.html">AGM</a></li>
+        <li><a href="anti-doping.html">Anti-Doping</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="cta">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / National Records</div>
+    <h1>National Records</h1>
+    <p style="max-width:680px; margin:14px auto 0; opacity:.92;">The official National Open and Age Group records for Brunei Darussalam — recognised by Brunei Aquatics across all FINA pool events.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="heading-center reveal">
+      <span class="section-eyebrow">Choose a category</span>
+      <h2>National Records Database</h2>
+      <p>Filter by category, course, gender, age group and event. Last updated: <strong id="records-updated">—</strong>.</p>
+    </div>
+
+    <div id="records-tabs" class="records-tabs reveal">
+      <button class="tab-btn active" data-set="open">National Open Records</button>
+      <button class="tab-btn" data-set="age">National Age Group Records</button>
+    </div>
+
+    <div class="records-controls reveal">
+      <input type="search" id="records-search" placeholder="Search event, swimmer or location…">
+      <select id="records-gender">
+        <option value="">All categories</option>
+        <option value="M">Men</option>
+        <option value="F">Women</option>
+      </select>
+      <select id="records-course">
+        <option value="">All courses</option>
+        <option value="LCM">Long Course (50m)</option>
+        <option value="SCM">Short Course (25m)</option>
+      </select>
+      <span id="age-wrap" style="display:none;">
+        <select id="records-age"></select>
+      </span>
+    </div>
+
+    <div class="records-table-wrap reveal">
+      <table class="records-table" id="records-table">
+        <thead>
+          <tr>
+            <th>Event</th><th>Category</th><th>Course</th>
+            <th>Time</th><th>Record Holder</th><th>Location</th><th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="7" style="padding:30px; text-align:center; color:#6b7280;">Loading records…</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note-box info mt-32">
+      <strong>For BASA administrators:</strong> records are stored in plain text JSON files in the <code>data/</code> folder.
+      Edit <code>data/records-open.json</code> and <code>data/records-age-group.json</code> to update records — no code required.
+      A field-by-field guide is in the project README.
+    </div>
+
+    <div class="cta-strip reveal mt-32">
+      <div>
+        <h3>Broke a record? Submit a ratification request.</h3>
+        <p>Send timing certification, meet officials' approval and athlete ID to BASA.</p>
+      </div>
+      <a href="contact.html" class="btn">Contact us →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="images/logo.png" alt="" style="height:48px;">
+          <span class="brand-text">Brunei Aquatics<small>National Governing Body</small></span>
+        </a>
+        <p style="margin-top:16px;">The national governing body for aquatic disciplines in Brunei Darussalam since 1970.</p>
+      </div>
+      <div><h5>Explore</h5><ul>
+        <li><a href="clubs.html">Clubs</a></li><li><a href="records.html">National Records</a></li>
+        <li><a href="selections.html">Selections</a></li><li><a href="register.html">Registration</a></li>
+      </ul></div>
+      <div><h5>Governance</h5><ul>
+        <li><a href="agm.html">AGM &amp; Constitution</a></li><li><a href="anti-doping.html">Anti-Doping</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div><h5>Connect</h5><ul>
+        <li><a href="https://facebook.com/BASABrunei" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com/bdsa_brunei" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="mailto:contact@bruneiaquatics.com">contact@bruneiaquatics.com</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="year"></span> Brunei Aquatics. All rights reserved.</div>
+      <div>Hassanal Bolkiah National Swimming Complex, Bandar Seri Begawan</div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/records.js"></script>
+</body>
+</html>

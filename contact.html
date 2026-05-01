@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Brunei Aquatics</title>
+<meta name="description" content="Get in touch with Brunei Aquatics — secured contact form, email and social channels.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div>Hassanal Bolkiah National Swimming Complex · contact@bruneiaquatics.com</div>
+    <div class="socials">
+      <a href="https://facebook.com/BASABrunei" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://instagram.com/bdsa_brunei" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Brunei Aquatics logo">
+        <span class="brand-text">Brunei Aquatics<small>National Governing Body</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="records.html">Records</a></li>
+        <li><a href="selections.html">Selections</a></li>
+        <li><a href="agm.html">AGM</a></li>
+        <li><a href="anti-doping.html">Anti-Doping</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="cta">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <h1>Get in touch</h1>
+    <p style="max-width:680px; margin:14px auto 0; opacity:.92;">Have a question, integrity concern or partnership idea? We'd love to hear from you.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="split-grid">
+      <div class="reveal">
+        <span class="section-eyebrow">Reach us directly</span>
+        <h2>Contact details</h2>
+        <ul class="bullet-list" style="list-style:none; padding:0;">
+          <li style="margin-bottom:18px;"><strong>📧 Email</strong><br><a href="mailto:contact@bruneiaquatics.com">contact@bruneiaquatics.com</a></li>
+          <li style="margin-bottom:18px;"><strong>📍 Address</strong><br>Hassanal Bolkiah National Swimming Complex<br>Bandar Seri Begawan, Brunei Darussalam</li>
+          <li style="margin-bottom:18px;"><strong>📱 Social</strong><br>
+            <a href="https://facebook.com/BASABrunei" target="_blank" rel="noopener">Facebook /BASABrunei</a><br>
+            <a href="https://instagram.com/bdsa_brunei" target="_blank" rel="noopener">Instagram @bdsa_brunei</a>
+          </li>
+        </ul>
+        <div class="note-box info">
+          <strong>Confidential or integrity-related?</strong> Use the secured form on the right. All submissions are routed privately to the BASA secretariat.
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="form-shell">
+          <h3 style="margin-top:0;">Send us a message</h3>
+          <div class="form-success" id="contact-success">✅ Thank you — your message has been sent. We'll be in touch shortly.</div>
+          <!-- Replace YOUR_FORM_ID with a free Formspree endpoint (formspree.io) once set up -->
+          <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="hidden" name="_subject" value="New contact message via bruneiaquatics website">
+            <div class="form-grid">
+              <div class="field full">
+                <label>Name <span class="req">*</span></label>
+                <input type="text" name="name" required>
+              </div>
+              <div class="field full">
+                <label>Email <span class="req">*</span></label>
+                <input type="email" name="email" required>
+              </div>
+              <div class="field full">
+                <label>Subject</label>
+                <select name="subject">
+                  <option>General enquiry</option>
+                  <option>Club affiliation</option>
+                  <option>Selections / qualifying</option>
+                  <option>Records ratification</option>
+                  <option>Integrity / confidential</option>
+                  <option>Media / partnerships</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label>Message <span class="req">*</span></label>
+                <textarea name="message" required></textarea>
+              </div>
+              <div class="field full">
+                <button type="submit" class="btn btn-primary">Send message →</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="images/logo.png" alt="" style="height:48px;">
+          <span class="brand-text">Brunei Aquatics<small>National Governing Body</small></span>
+        </a>
+        <p style="margin-top:16px;">The national governing body for aquatic disciplines in Brunei Darussalam since 1970.</p>
+      </div>
+      <div><h5>Explore</h5><ul>
+        <li><a href="clubs.html">Clubs</a></li><li><a href="records.html">National Records</a></li>
+        <li><a href="selections.html">Selections</a></li><li><a href="register.html">Registration</a></li>
+      </ul></div>
+      <div><h5>Governance</h5><ul>
+        <li><a href="agm.html">AGM &amp; Constitution</a></li><li><a href="anti-doping.html">Anti-Doping</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div><h5>Connect</h5><ul>
+        <li><a href="https://facebook.com/BASABrunei" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://instagram.com/bdsa_brunei" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="mailto:contact@bruneiaquatics.com">contact@bruneiaquatics.com</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="year"></span> Brunei Aquatics. All rights reserved.</div>
+      <div>Hassanal Bolkiah National Swimming Complex, Bandar Seri Begawan</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const success = document.getElementById('contact-success');
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST', body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) { form.reset(); success.classList.add('show'); window.scrollTo({ top: success.offsetTop - 100, behavior: 'smooth' }); }
+      else { alert('Sorry, your message could not be sent. Please email contact@bruneiaquatics.com directly.'); }
+    } catch (err) {
+      alert('Network error. Please email contact@bruneiaquatics.com directly.');
+    }
+  });
+</script>
+</body>
+</html>

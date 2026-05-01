@@ -1,0 +1,32 @@
+{
+  "title": "Brunei National Age Group Records",
+  "updated": "2025-01-01",
+  "_instructions": "Add or edit records below. Required fields: event, age_group (e.g. '10 & Under', '11-12', '13-14', '15-17'), gender (M or F), course (LCM/SCM), time, holder, location, date.",
+  "records": [
+    { "event": "50m Freestyle",   "age_group": "10 & Under", "gender": "M", "course": "LCM", "time": "30.50",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "50m Freestyle",   "age_group": "10 & Under", "gender": "F", "course": "LCM", "time": "31.20",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "10 & Under", "gender": "M", "course": "LCM", "time": "1:08.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "10 & Under", "gender": "F", "course": "LCM", "time": "1:09.50", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+
+    { "event": "50m Freestyle",   "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "27.80",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "50m Freestyle",   "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "28.40",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "1:01.50", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "1:02.80", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "2:30.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "2:34.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+
+    { "event": "50m Freestyle",   "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "25.50",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "50m Freestyle",   "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "27.30",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "56.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "1:00.20", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "2:18.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "2:25.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+
+    { "event": "50m Freestyle",   "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "24.20",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "50m Freestyle",   "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "26.90",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "53.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "100m Freestyle",  "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "59.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "2:12.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
+    { "event": "200m IM",         "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "2:22.00", "holder": "Pending update", "location": "TBC", "date": "TBC" }
+  ]
+}
