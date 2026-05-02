@@ -77,21 +77,33 @@ Edit the `<div class="member-card">` blocks in `index.html` (Leadership section)
 
 ---
 
-## How to enable the registration & contact forms
+## How to enable the forms
 
-The forms in `register.html` and `contact.html` are wired to **Formspree** (free tier — no backend required). Steps:
+### 🏊 Registration forms — Google Forms
+
+The Swimmer and Club registration buttons on `register.html` link out to **Google Forms** (responses auto-collect into a Google Sheet you can share with the committee).
+
+The two forms are already wired up:
+
+| Form | URL in `register.html` |
+|---|---|
+| Swimmer Registration | `https://docs.google.com/forms/d/1Aow7xpGPPO5ihSy5sRJ_h_ExGVU6OOJAZEusSTQORac/viewform` |
+| Club Registration | `https://docs.google.com/forms/d/169OYCwIj_Dor_-OdCJzugKYfXP81ePaBX3WQR5CPRb4/viewform` |
+
+**Important:** make sure both Google Forms are set to **"Anyone with the link"** can respond. Inside the form editor → ⚙️ **Settings → Responses** → tick **"Limit to 1 response"** *off* and ensure sign-in is *not* required (unless you want it).
+
+To swap a Google Form, edit `register.html` and replace the URL inside `href="..."` for the matching CTA button. Use the `/viewform` URL (not `/edit`) — the `/edit` URL only works for you as the form owner.
+
+### ✉️ Contact form — Formspree
+
+The form on `contact.html` is wired to **Formspree** (free tier — no backend required). Steps:
 
 1. Go to <https://formspree.io> and sign up using **contact@bruneiaquatics.com**.
-2. Create three forms (you'll get an endpoint URL for each):
-   - **Swimmer Registration**
-   - **Club Affiliation**
-   - **Contact**
-3. Each form gives you a URL like `https://formspree.io/f/abc123xyz`.
-4. Open the HTML files and replace these placeholders:
-   - `register.html` — replace **both** instances of `REPLACE_WITH_YOUR_FORMSPREE_ID` with your two endpoint IDs
-   - `contact.html` — replace `YOUR_FORM_ID` with the contact form endpoint ID
+2. Create one form (e.g. **"BASA Website Contact"**).
+3. Formspree gives you a URL like `https://formspree.io/f/abc123xyz`.
+4. Open `contact.html`, find `YOUR_FORM_ID` and replace it with your Formspree ID (the part after `/f/`).
 
-Submissions will arrive in your email automatically. No server, no database.
+Submissions arrive in your email automatically. No server, no database.
 
 ---
 

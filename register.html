@@ -4,12 +4,161 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clubs &amp; Swimmers Registration — Brunei Aquatics</title>
-<meta name="description" content="Register a new club or a swimmer with Brunei Aquatics.">
+<meta name="description" content="Register a new club or a swimmer with Brunei Aquatics. Online registration via Google Forms.">
 <link rel="icon" href="images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
+<style>
+  /* Page-specific styles for the two registration cards */
+  .reg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-top: 16px;
+  }
+  @media (max-width: 880px) { .reg-grid { grid-template-columns: 1fr; } }
+
+  .reg-card {
+    position: relative;
+    background: white;
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-lg);
+    padding: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+    display: flex;
+    flex-direction: column;
+  }
+  .reg-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+  .reg-card .reg-banner {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .reg-card .reg-banner::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0, 42, 92, .25), rgba(0, 42, 92, .85));
+  }
+  .reg-card .reg-banner.swimmer {
+    background-image: url('https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1400&q=80');
+  }
+  .reg-card .reg-banner.club {
+    background-image: url('https://images.unsplash.com/photo-1576406500430-e1146d6c1f95?auto=format&fit=crop&w=1400&q=80');
+  }
+  .reg-card .reg-banner .badge {
+    position: absolute;
+    bottom: 18px; left: 24px;
+    background: var(--c-yellow);
+    color: var(--c-black);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: .75rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .reg-card .reg-body {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .reg-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+  }
+  .reg-card .lead {
+    color: var(--c-text-soft);
+    margin-bottom: 20px;
+  }
+  .reg-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    flex: 1;
+  }
+  .reg-card ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--c-border);
+    font-size: .92rem;
+    color: var(--c-text-soft);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .reg-card ul li:last-child { border-bottom: 0; }
+  .reg-card ul li::before {
+    content: "✓";
+    color: var(--c-cyan);
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+  .reg-card .cta-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .reg-card .btn { flex: 1; justify-content: center; min-width: 0; }
+
+  .info-strip {
+    margin-top: 48px;
+    background: linear-gradient(135deg, var(--c-blue-900), var(--c-blue-700));
+    color: white;
+    padding: 32px 36px;
+    border-radius: var(--radius-lg);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  .info-strip .icon-circle {
+    width: 64px; height: 64px;
+    background: var(--c-yellow);
+    color: var(--c-black);
+    border-radius: 50%;
+    display: grid; place-items: center;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+  .info-strip h3 { color: white; margin: 0 0 6px; font-size: 1.2rem; }
+  .info-strip p { margin: 0; opacity: .9; }
+  @media (max-width: 600px) {
+    .info-strip { grid-template-columns: 1fr; text-align: center; }
+    .info-strip .icon-circle { margin: 0 auto; }
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 24px;
+  }
+  .step {
+    text-align: center;
+    padding: 20px;
+  }
+  .step .num {
+    width: 48px; height: 48px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--c-blue-700), var(--c-cyan));
+    color: white;
+    display: grid; place-items: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+  .step h4 { margin: 0 0 6px; font-size: 1rem; }
+  .step p { margin: 0; font-size: .9rem; color: var(--c-text-soft); }
+</style>
 </head>
 <body>
 
@@ -51,154 +200,126 @@
   <div class="container">
     <div class="breadcrumb"><a href="index.html">Home</a> / Registration</div>
     <h1>Clubs &amp; Swimmers Registration</h1>
-    <p style="max-width:680px; margin:14px auto 0; opacity:.92;">Register your club for affiliation, or register a swimmer for the new season — directly with Brunei Aquatics.</p>
+    <p style="max-width:680px; margin:14px auto 0; opacity:.92;">Register your club for affiliation, or register a swimmer for the new season — securely via Google Forms.</p>
   </div>
 </section>
 
 <section>
-  <div class="container" style="max-width:880px;">
-
-    <div class="reg-tabs reveal" role="tablist">
-      <button class="active" data-target="swimmer" role="tab">🏊 Swimmer Registration</button>
-      <button data-target="club" role="tab">🏛 Club Registration</button>
+  <div class="container">
+    <div class="heading-center reveal">
+      <span class="section-eyebrow">Choose your form</span>
+      <h2>Online registration with Brunei Aquatics</h2>
+      <p>Both forms are hosted on Google Forms — secure, mobile-friendly, and routed straight to the BASA secretariat.</p>
     </div>
 
-    <!-- SWIMMER FORM -->
-    <div id="form-swimmer" class="form-shell reveal">
-      <div class="form-success" id="success-swimmer">✓ Thank you! Your swimmer registration has been submitted. BASA will contact you shortly at the email provided.</div>
-      <form
-        action="https://formspree.io/f/REPLACE_WITH_YOUR_FORMSPREE_ID"
-        method="POST"
-        id="swimmer-form"
-        data-success="success-swimmer">
+    <div class="reg-grid">
 
-        <input type="hidden" name="_subject" value="New Swimmer Registration — BASA Website">
-        <input type="hidden" name="form_type" value="Swimmer Registration">
-        <input type="text" name="_gotcha" style="display:none">
-
-        <h3 style="margin-top:0;">Swimmer details</h3>
-        <div class="form-grid">
-          <div class="field"><label>Full name <span class="req">*</span></label><input name="full_name" required></div>
-          <div class="field"><label>Date of birth <span class="req">*</span></label><input name="dob" type="date" required></div>
-          <div class="field"><label>Gender <span class="req">*</span></label>
-            <select name="gender" required>
-              <option value="">Select…</option><option>Male</option><option>Female</option>
-            </select>
-          </div>
-          <div class="field"><label>Nationality <span class="req">*</span></label><input name="nationality" placeholder="e.g. Bruneian" required></div>
-          <div class="field"><label>IC / Passport No. <span class="req">*</span></label><input name="ic_passport" required></div>
-          <div class="field"><label>Affiliated club <span class="req">*</span></label>
-            <select name="club" required>
-              <option value="">Select your club…</option>
-              <option>ABS Swim Club</option>
-              <option>Aquadrift</option>
-              <option>Blue Shark Swimming Club</option>
-              <option>British Forces Brunei Barracuda</option>
-              <option>Brunei Speed Swimming Club</option>
-              <option>Dolphin Swimming Club</option>
-              <option>Hammerhead Swimming Club</option>
-              <option>Jerudong Swimming Club</option>
-              <option>KB Piranha Swimming Team</option>
-              <option>LifeSkillSwim School</option>
-              <option>Mabohai Swimming Club</option>
-              <option>PSI Swim Club</option>
-              <option>Panaga Stingrays</option>
-              <option>Supershark</option>
-            </select>
-          </div>
-          <div class="field full"><label>Disciplines <span class="req">*</span></label>
-            <select name="disciplines" multiple size="3" required>
-              <option>Swimming</option>
-              <option>Diving</option>
-              <option>Water Polo</option>
-              <option>Artistic Swimming</option>
-              <option>Open Water Swimming</option>
-            </select>
-            <span class="hint">Hold Ctrl (or Cmd) to select multiple.</span>
-          </div>
+      <!-- SWIMMER REGISTRATION CARD -->
+      <article class="reg-card reveal">
+        <div class="reg-banner swimmer">
+          <span class="badge">For athletes</span>
         </div>
-
-        <h3 style="margin-top:32px;">Parent / Guardian (if under 18)</h3>
-        <div class="form-grid">
-          <div class="field"><label>Parent / Guardian name</label><input name="guardian_name"></div>
-          <div class="field"><label>Relationship</label><input name="guardian_relationship" placeholder="e.g. Mother"></div>
-          <div class="field"><label>Contact email <span class="req">*</span></label><input type="email" name="email" required></div>
-          <div class="field"><label>Contact phone <span class="req">*</span></label><input name="phone" required></div>
-        </div>
-
-        <h3 style="margin-top:32px;">Medical &amp; consent</h3>
-        <div class="form-grid">
-          <div class="field full"><label>Any medical conditions, allergies or medication?</label>
-            <textarea name="medical" placeholder="Write 'None' if not applicable"></textarea>
+        <div class="reg-body">
+          <h3>Swimmer Registration</h3>
+          <p class="lead">For all swimmers competing under any BASA-affiliated club for the new season.</p>
+          <ul>
+            <li>Personal &amp; contact details</li>
+            <li>IC / Passport identification</li>
+            <li>Affiliated club selection</li>
+            <li>Disciplines (swimming, diving, water polo, etc.)</li>
+            <li>Parent / guardian consent (if under 18)</li>
+            <li>Medical declaration &amp; code of conduct agreement</li>
+          </ul>
+          <div class="cta-row">
+            <a href="https://docs.google.com/forms/d/1Aow7xpGPPO5ihSy5sRJ_h_ExGVU6OOJAZEusSTQORac/viewform"
+               class="btn btn-primary"
+               target="_blank" rel="noopener">
+              Open Swimmer Form →
+            </a>
           </div>
-          <div class="field full"><label><input type="checkbox" name="consent" required> I consent to the processing of personal data and agree to abide by the rules and code of conduct of Brunei Aquatics, including the World Aquatics Anti-Doping framework. <span class="req">*</span></label></div>
+          <p style="margin-top:14px; font-size:.85rem; color:var(--c-text-muted);">
+            ⏱ Approx. 5 minutes · Opens in a new tab
+          </p>
         </div>
+      </article>
 
-        <button type="submit" class="btn btn-primary mt-32" style="width:100%; justify-content:center;">Submit registration</button>
-        <p class="hint" style="margin-top:14px; text-align:center;">By submitting you agree to be contacted by BASA at <a href="mailto:contact@bruneiaquatics.com">contact@bruneiaquatics.com</a>.</p>
-      </form>
+      <!-- CLUB REGISTRATION CARD -->
+      <article class="reg-card reveal">
+        <div class="reg-banner club">
+          <span class="badge">For clubs</span>
+        </div>
+        <div class="reg-body">
+          <h3>Club Registration</h3>
+          <p class="lead">For clubs applying for first-time affiliation or renewing affiliation with Brunei Aquatics.</p>
+          <ul>
+            <li>Club name &amp; year established</li>
+            <li>Training location(s)</li>
+            <li>Number of swimmers &amp; coaches</li>
+            <li>Disciplines offered</li>
+            <li>Primary contact &amp; head coach details</li>
+            <li>Constitution acknowledgement &amp; safeguarding</li>
+          </ul>
+          <div class="cta-row">
+            <a href="https://docs.google.com/forms/d/169OYCwIj_Dor_-OdCJzugKYfXP81ePaBX3WQR5CPRb4/viewform"
+               class="btn btn-primary"
+               target="_blank" rel="noopener">
+              Open Club Form →
+            </a>
+          </div>
+          <p style="margin-top:14px; font-size:.85rem; color:var(--c-text-muted);">
+            ⏱ Approx. 8 minutes · Opens in a new tab
+          </p>
+        </div>
+      </article>
     </div>
 
-    <!-- CLUB FORM -->
-    <div id="form-club" class="form-shell reveal" style="display:none;">
-      <div class="form-success" id="success-club">✓ Thank you! Your club affiliation request has been submitted. BASA will review and respond within 14 days.</div>
-      <form
-        action="https://formspree.io/f/REPLACE_WITH_YOUR_FORMSPREE_ID"
-        method="POST"
-        id="club-form"
-        data-success="success-club">
+    <!-- Help strip -->
+    <div class="info-strip reveal">
+      <div class="icon-circle">💡</div>
+      <div>
+        <h3>Need help with your registration?</h3>
+        <p>Email <a href="mailto:contact@bruneiaquatics.com" style="color:var(--c-yellow);">contact@bruneiaquatics.com</a> or contact your affiliated club directly. The BASA secretariat will respond within 3 working days.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <input type="hidden" name="_subject" value="New Club Affiliation Request — BASA Website">
-        <input type="hidden" name="form_type" value="Club Affiliation">
-        <input type="text" name="_gotcha" style="display:none">
-
-        <h3 style="margin-top:0;">Club details</h3>
-        <div class="form-grid">
-          <div class="field"><label>Club name <span class="req">*</span></label><input name="club_name" required></div>
-          <div class="field"><label>Year established <span class="req">*</span></label><input type="number" name="year_established" min="1900" required></div>
-          <div class="field full"><label>Training location(s) <span class="req">*</span></label><input name="training_location" placeholder="e.g. Hassanal Bolkiah National Swimming Complex" required></div>
-          <div class="field"><label>Approx. number of swimmers</label><input type="number" name="num_swimmers" min="0"></div>
-          <div class="field"><label>Number of coaches</label><input type="number" name="num_coaches" min="0"></div>
-          <div class="field full"><label>Disciplines offered <span class="req">*</span></label>
-            <select name="disciplines" multiple size="5" required>
-              <option>Swimming</option>
-              <option>Diving</option>
-              <option>Water Polo</option>
-              <option>Artistic Swimming</option>
-              <option>Open Water Swimming</option>
-            </select>
-          </div>
-        </div>
-
-        <h3 style="margin-top:32px;">Primary contact</h3>
-        <div class="form-grid">
-          <div class="field"><label>Contact name <span class="req">*</span></label><input name="contact_name" required></div>
-          <div class="field"><label>Position / Role <span class="req">*</span></label><input name="contact_role" placeholder="e.g. Secretary" required></div>
-          <div class="field"><label>Email <span class="req">*</span></label><input type="email" name="email" required></div>
-          <div class="field"><label>Phone <span class="req">*</span></label><input name="phone" required></div>
-        </div>
-
-        <h3 style="margin-top:32px;">About the club</h3>
-        <div class="form-grid">
-          <div class="field full"><label>Brief description of your club <span class="req">*</span></label>
-            <textarea name="description" required placeholder="Mission, history, achievements…"></textarea>
-          </div>
-          <div class="field full"><label>Head coach name &amp; qualifications</label>
-            <textarea name="head_coach"></textarea>
-          </div>
-          <div class="field full"><label><input type="checkbox" name="consent" required> We agree to abide by the constitution and policies of Brunei Aquatics, including all anti-doping and safeguarding requirements. <span class="req">*</span></label></div>
-        </div>
-
-        <button type="submit" class="btn btn-primary mt-32" style="width:100%; justify-content:center;">Submit affiliation request</button>
-        <p class="hint" style="margin-top:14px; text-align:center;">BASA reviews club affiliation applications within 14 working days.</p>
-      </form>
+<!-- HOW IT WORKS -->
+<section class="section-alt">
+  <div class="container">
+    <div class="heading-center reveal">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From submission to confirmation</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="num">1</div>
+        <h4>Submit form</h4>
+        <p>Complete the appropriate Google Form and submit.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">2</div>
+        <h4>BASA review</h4>
+        <p>The secretariat reviews your submission against eligibility criteria.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">3</div>
+        <h4>Email confirmation</h4>
+        <p>You'll receive a confirmation email with next steps.</p>
+      </div>
+      <div class="step reveal">
+        <div class="num">4</div>
+        <h4>Active membership</h4>
+        <p>Once approved, your registration is active for the season.</p>
+      </div>
     </div>
 
-    <div class="note-box info mt-48">
-      <strong>For BASA administrators:</strong> this form is wired to <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> (free tier).
-      Sign up at formspree.io with <strong>contact@bruneiaquatics.com</strong>, create two forms (Swimmer + Club),
-      and replace <code>REPLACE_WITH_YOUR_FORMSPREE_ID</code> in <code>register.html</code> with each form's endpoint ID.
-      Submissions will arrive in your email automatically — no backend required.
+    <div class="cta-strip reveal mt-48">
+      <div>
+        <h3>Already affiliated? Find your club.</h3>
+        <p>Browse all 14 BASA-affiliated clubs across Brunei Darussalam.</p>
+      </div>
+      <a href="clubs.html" class="btn">View clubs →</a>
     </div>
   </div>
 </section>
@@ -235,44 +356,5 @@
 </footer>
 
 <script src="js/main.js"></script>
-<script>
-  /* Tab switch */
-  document.querySelectorAll('.reg-tabs button').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.reg-tabs button').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const t = btn.dataset.target;
-      document.getElementById('form-swimmer').style.display = t === 'swimmer' ? '' : 'none';
-      document.getElementById('form-club').style.display    = t === 'club'    ? '' : 'none';
-    });
-  });
-
-  /* Async submit (graceful) */
-  ['swimmer-form', 'club-form'].forEach(id => {
-    const f = document.getElementById(id);
-    if (!f) return;
-    f.addEventListener('submit', async (e) => {
-      if (f.action.includes('REPLACE_WITH_YOUR_FORMSPREE_ID')) {
-        e.preventDefault();
-        alert('Form not yet configured. Admin: replace REPLACE_WITH_YOUR_FORMSPREE_ID with your Formspree endpoint.');
-        return;
-      }
-      e.preventDefault();
-      const data = new FormData(f);
-      try {
-        const res = await fetch(f.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } });
-        if (res.ok) {
-          f.reset();
-          const success = document.getElementById(f.dataset.success);
-          if (success) { success.classList.add('show'); success.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
-        } else {
-          alert('Submission failed. Please email contact@bruneiaquatics.com directly.');
-        }
-      } catch {
-        alert('Network error. Please try again or email contact@bruneiaquatics.com directly.');
-      }
-    });
-  });
-</script>
 </body>
 </html>
