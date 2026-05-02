@@ -38,8 +38,14 @@
 
   function ageOptions() {
     const groups = [...new Set(dataAge.map(r => r.age_group).filter(Boolean))];
+    // Sort numerically by the first number in the label so "7 years" precedes "10 years"
+    groups.sort((a, b) => {
+      const na = parseInt((a.match(/\d+/) || [0])[0], 10);
+      const nb = parseInt((b.match(/\d+/) || [0])[0], 10);
+      return na - nb;
+    });
     ageSel.innerHTML = '<option value="">All age groups</option>' +
-      groups.sort().map(g => `<option value="${g}">${g}</option>`).join('');
+      groups.map(g => `<option value="${g}">${g}</option>`).join('');
   }
 
   function render() {

@@ -1,32 +1,4177 @@
 {
   "title": "Brunei National Age Group Records",
-  "updated": "2025-01-01",
-  "_instructions": "Add or edit records below. Required fields: event, age_group (e.g. '10 & Under', '11-12', '13-14', '15-17'), gender (M or F), course (LCM/SCM), time, holder, location, date.",
+  "updated": "2026-02-04",
+  "_instructions": "Add or edit records below. Required fields: event, age_group, gender (M or F), course (LCM/SCM), time, holder, location, date.",
   "records": [
-    { "event": "50m Freestyle",   "age_group": "10 & Under", "gender": "M", "course": "LCM", "time": "30.50",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "50m Freestyle",   "age_group": "10 & Under", "gender": "F", "course": "LCM", "time": "31.20",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "10 & Under", "gender": "M", "course": "LCM", "time": "1:08.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "10 & Under", "gender": "F", "course": "LCM", "time": "1:09.50", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-
-    { "event": "50m Freestyle",   "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "27.80",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "50m Freestyle",   "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "28.40",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "1:01.50", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "1:02.80", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "11-12",      "gender": "M", "course": "LCM", "time": "2:30.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "11-12",      "gender": "F", "course": "LCM", "time": "2:34.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-
-    { "event": "50m Freestyle",   "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "25.50",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "50m Freestyle",   "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "27.30",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "56.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "1:00.20", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "13-14",      "gender": "M", "course": "LCM", "time": "2:18.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "13-14",      "gender": "F", "course": "LCM", "time": "2:25.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-
-    { "event": "50m Freestyle",   "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "24.20",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "50m Freestyle",   "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "26.90",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "53.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "100m Freestyle",  "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "59.00",   "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "15-17",      "gender": "M", "course": "LCM", "time": "2:12.00", "holder": "Pending update", "location": "TBC", "date": "TBC" },
-    { "event": "200m IM",         "age_group": "15-17",      "gender": "F", "course": "LCM", "time": "2:22.00", "holder": "Pending update", "location": "TBC", "date": "TBC" }
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "42.49",
+      "holder": "Jayden Yong",
+      "location": "19th Brunei Age Group Championships 2011",
+      "date": "2011-03-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:32.87",
+      "holder": "Jayden Yong",
+      "location": "19th Brunei Age Group Championships 2011",
+      "date": "2011-03-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "48.73",
+      "holder": "Jayden Yong",
+      "location": "19th Brunei Age Group Championships 2011",
+      "date": "2011-03-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:08.75",
+      "holder": "Eli Chong",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-26",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "52.79",
+      "holder": "Jayden Yong",
+      "location": "19th Brunei Age Group Championships 2011",
+      "date": "2011-03-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:19.86",
+      "holder": "Eli Chong",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-26",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "43.53",
+      "holder": "Jayden Yong",
+      "location": "19th Brunei Age Group Championships 2011",
+      "date": "2011-03-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:42.59",
+      "holder": "Eli Chong",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-27",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "46.79",
+      "holder": "Naomi Chan",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-11",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:47.02",
+      "holder": "Naomi Chan",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-09",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "50.71",
+      "holder": "Naomi Chan",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-10",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:10.35",
+      "holder": "YTM Pengiran Anak Muneerah Madhul Bolkiah",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:06.98",
+      "holder": "YTM Pengiran Anak Muneerah Madhul Bolkiah",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "7 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:47.38",
+      "holder": "YTM Pengiran Anak Muneerah Madhul Bolkiah",
+      "location": "5th Brunei 100m Sprint Champs",
+      "date": "2018-02-04",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:03.12",
+      "holder": "YTM Pengiran Anak Muneerah Madhul Bolkiah",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "38.14",
+      "holder": "Danniel Chan",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-14",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:22.47",
+      "holder": "Jayden Yong",
+      "location": "45th Sabah Age Group",
+      "date": "2012-01-14",
+      "age_group": "8 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:45.61",
+      "holder": "Abd Muazz Al' Rashyee bin Hasriman",
+      "location": "9th Brunei Open & Masters Swimming Championships 2023",
+      "date": "2023-03-04",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "43.15",
+      "holder": "Jayden Yong",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-14",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:40.44",
+      "holder": "Danniel Chan",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-14",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "55.52",
+      "holder": "Danniel Chan",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-14",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:00.48",
+      "holder": "Evan Tan Ding Yun",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-26",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "43.65",
+      "holder": "Danniel Chan",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-11-13",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:07.37",
+      "holder": "Evan Tan Ding Yun",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-27",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "43.20",
+      "holder": "Andra Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-12",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:38.26",
+      "holder": "Andra Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-12",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "50.50",
+      "holder": "Andra Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-12",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:45.14",
+      "holder": "Naomi Chan",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-30",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "58.53",
+      "holder": "Andra Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-12",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:08.19",
+      "holder": "Mia Tan Wan Ru",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-10",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "48.91",
+      "holder": "Andra Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-12",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:02.74",
+      "holder": "Naomi Chan",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-30",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "35.35",
+      "holder": "Joshua Yong",
+      "location": "Sabah",
+      "date": "2010-10-30",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:21.03",
+      "holder": "Jax Lim",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:49.10",
+      "holder": "Jax Lim",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "43.87",
+      "holder": "Jax Lim",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:32.66",
+      "holder": "Trevor Hii",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-11",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "47.88",
+      "holder": "Jax Lim",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-30",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:43.07",
+      "holder": "Jax Lim",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:15.90",
+      "holder": "Ayden McCarthy",
+      "location": "23rd Brunei Age Group Championships 2015",
+      "date": "2015-04-18",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "38.75",
+      "holder": "Joshua Yong",
+      "location": "Sabah",
+      "date": "2010-10-30",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:29.20",
+      "holder": "Haazim Abd Hadzid",
+      "location": "Kuala Lumpur",
+      "date": "2004-04-09",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "3:23.87",
+      "holder": "Ayden McCarthy",
+      "location": "5th Brunei OPEN Championships",
+      "date": "2016-10-30",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "35.96",
+      "holder": "Andra Chai",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-22",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:20.28",
+      "holder": "Andra Chai",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-22",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:15.21",
+      "holder": "Breanna Lee Le Er",
+      "location": "24th Brunei Age Group Championships 2016",
+      "date": "2016-04-17",
+      "age_group": "9 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "6:28.49",
+      "holder": "Breanna Lee Le Er",
+      "location": "5th Brunei OPEN Championships",
+      "date": "2016-10-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "42.23",
+      "holder": "Andra Chai",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-23",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:37.34",
+      "holder": "Naomi Chan",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-26",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:50.32",
+      "holder": "Hayley Wong",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Breast",
+      "gender": "F",
+      "course": "LCM",
+      "time": "47.59",
+      "holder": "Andra Chai",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-22",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Breast",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:49.28",
+      "holder": "Hayley Wong",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Breast",
+      "gender": "F",
+      "course": "LCM",
+      "time": "4:10.33",
+      "holder": "Hayley Wong",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "39.92",
+      "holder": "Andra Chai",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-23",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:43.66",
+      "holder": "Hayley Wong",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-15",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "4:13.75",
+      "holder": "Hayley Wong",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-29",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:32.74",
+      "holder": "Hayley Wong",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "31.92",
+      "holder": "Zeke Chan",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-11-12",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:11.25",
+      "holder": "Zeke Chan",
+      "location": "41st SEA Age Group, Brunei",
+      "date": "2017-11-12",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:35.62",
+      "holder": "Zeke Chan",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-16",
+      "age_group": "10 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "5:33.01",
+      "holder": "Zeke Chan",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-29",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "38.30",
+      "holder": "Zeke Chan",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:21.77",
+      "holder": "Zeke Chan",
+      "location": "41st SEA Age Group, Brunei",
+      "date": "2017-11-10",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "3:01.42",
+      "holder": "Zeke Chan",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-29",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "43.98",
+      "holder": "Joshua Yong",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:34.25",
+      "holder": "Joshua Yong",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "3:29.17",
+      "holder": "Jax Lim",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "34.61",
+      "holder": "Zeke Chan",
+      "location": "41st SEA Age Group, Brunei",
+      "date": "2017-11-11",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:16.83",
+      "holder": "Zeke Chan",
+      "location": "41st SEA Age Group, Brunei",
+      "date": "2017-11-11",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:57.70",
+      "holder": "Zeke Chan",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:54.99",
+      "holder": "Zeke Chan",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-16",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "32.55",
+      "holder": "Ashley Chai",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:11.68",
+      "holder": "Ashley Chai",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:36.48",
+      "holder": "Ashley Chai",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-26",
+      "age_group": "10 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "5:36.07",
+      "holder": "Breanna Lee Le Er",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-29",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "37.95",
+      "holder": "Ashley Chai",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:21.19",
+      "holder": "Ashley Chai",
+      "location": "Brunei Inter Club",
+      "date": "2011-11-25",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:14.38",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "43.90",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:37.64",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:25.06",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "34.40",
+      "holder": "Hayley Wong",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-08",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:23.50",
+      "holder": "Hayley Wong",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-08",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:08.54",
+      "holder": "Hayley Wong",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-08",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:00.30",
+      "holder": "Breanna Lee Le Er",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "30.66",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "BSC Inter Club",
+      "date": "2009-11-20",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:08.53",
+      "holder": "Zeke Chan",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-06",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:30.17",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "5:20.57",
+      "holder": "Zeke Chan",
+      "location": "26th Brunei Age Group Championships 2018",
+      "date": "2018-04-22",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "37.10",
+      "holder": "Joel Ling",
+      "location": "6th Brunei Open & Masters Champs",
+      "date": "2017-09-17",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:18.09",
+      "holder": "Zeke Chan",
+      "location": "26th Brunei Age Group Championships 2018",
+      "date": "2018-04-22",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:52.64",
+      "holder": "Zeke Chan",
+      "location": "26th Brunei Age Group Championships 2018",
+      "date": "2018-04-22",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "39.59",
+      "holder": "Zeke Chan",
+      "location": "Wong Soon Kai, Sarawak, Malaysia",
+      "date": "2018-12-02",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:30.78",
+      "holder": "Zeke Chan",
+      "location": "26th Brunei Age Group Championships 2018",
+      "date": "2018-04-22",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "3:06.15",
+      "holder": "Zeke Chan",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-06",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "33.30",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:14.13",
+      "holder": "Zeke Chan",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-06",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:41.14",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:45.40",
+      "holder": "Zeke Chan",
+      "location": "10th BIMPNT-Eaga, Brunei",
+      "date": "2018-12-06",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "6:42.27",
+      "holder": "Mathias Jordan Narcis",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-25",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "31.65",
+      "holder": "Ashley Chai",
+      "location": "20th Brunei Age Group Championships 2012",
+      "date": "2012-04-15",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:09.02",
+      "holder": "Breanna Lee Le Er",
+      "location": "26th Brunei Age Group Championships 2012",
+      "date": "2018-04-22",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:32.07",
+      "holder": "Breanna Lee Le Er",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "5:23.35",
+      "holder": "Ashley Chai",
+      "location": "1st SKBD",
+      "date": "2012-09-08",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "35.16",
+      "holder": "Ashley Chai",
+      "location": "1st SKBD",
+      "date": "2012-09-09",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:17.14",
+      "holder": "Ashley Chai",
+      "location": "1st SKBD",
+      "date": "2012-09-07",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:47.30",
+      "holder": "Ashley Chai",
+      "location": "1st SKBD",
+      "date": "2012-09-08",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "38.75",
+      "holder": "Hayley Wong",
+      "location": "Tan Sri Dr. Wong Soon Kai Inter Club, Sarawak, Malaysia",
+      "date": "2019-11-23",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:27.19",
+      "holder": "Andra Chai",
+      "location": "4th Brunei OPEN Championships",
+      "date": "2015-11-07",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "3:05.37",
+      "holder": "Hayley Wong",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-13",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "32.76",
+      "holder": "Breanna Lee Le Er",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:15.80",
+      "holder": "Breanna Lee Le Er",
+      "location": "7th Brunei Open & Masters Champs",
+      "date": "2018-08-31",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:55.43",
+      "holder": "Hayley Wong",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-14",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:49.69",
+      "holder": "Hayley Wong",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-13",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "26.48",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "58.65",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:12.96",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:39.65",
+      "holder": "Nur Haziq Samil",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-15",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "9:54.24",
+      "holder": "Nur Haziq Samil",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-14",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "1500m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "18:50.97",
+      "holder": "Nur Haziq Samil",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-14",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "31.34",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei Darussalam Schools Games",
+      "date": "2024-11-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:07.83",
+      "holder": "Nur Haziq Samil",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-14",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:25.51",
+      "holder": "Joel Ling",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-13",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "28.62",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:05.25",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:31.06",
+      "holder": "Zeke Chan",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-14",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "34.01",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "Brunei Inter-club PT",
+      "date": "2011-11-26",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:15.51",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:49.97",
+      "holder": "Christian Nikles",
+      "location": "MCIA Interclub Brunei",
+      "date": "2010-08-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:28.82",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei Darussalam Schools Games",
+      "date": "2024-11-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "5:30.29",
+      "holder": "Danniel Chan",
+      "location": "FOBISIA Swimming Invitational 2024, Phuket Thailand",
+      "date": "2024-02-02",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "29.33",
+      "holder": "Amanda Liew",
+      "location": "Sabah",
+      "date": "2007-03-30",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:04.91",
+      "holder": "Amanda Liew",
+      "location": "Brunei",
+      "date": "2007-06-24",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:25.50",
+      "holder": "Breanna Lee Le Er",
+      "location": "43rd SEA Age Group, Cambodia",
+      "date": "2019-06-28",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "4:59.94",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "10:34.45",
+      "holder": "Felicia Lee Li Ern",
+      "location": "Kedah",
+      "date": "2006-05-24",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "33.67",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "44th SEA Age Group Swimming Championships, Malaysia",
+      "date": "2022-12-19",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:13.40",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "44th SEA Age Group Swimming Championships, Malaysia",
+      "date": "2022-12-17",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:40.88",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "44th SEA Age Group Swimming Championships, Malaysia",
+      "date": "2022-12-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "32.30",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-02",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:10.70",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:45.89",
+      "holder": "Breanna Lee Le Er",
+      "location": "43rd SEA Age Group, Cambodia",
+      "date": "2019-06-29",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "36.27",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-04",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:21.63",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:55.10",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-02",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:33.80",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "5:34.15",
+      "holder": "Hayley Wong",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-02",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "25.28",
+      "holder": "Christian Nikles",
+      "location": "1st SEA Champ. Singapre",
+      "date": "2012-06-16",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "54.99",
+      "holder": "Zeke Chan",
+      "location": "44th SEA Age Group Swimming Championships Malaysia 2022",
+      "date": "2022-12-19",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:00.17",
+      "holder": "Zeke Chan",
+      "location": "Brunei Darussalam Schools Games 2022",
+      "date": "2022-11-19",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:32.06",
+      "holder": "Zeke Chan",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "9:40.53",
+      "holder": "Nur Haziq Samil",
+      "location": "24th Brunei Age Group Championships 2015",
+      "date": "2015-11-06",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "1500m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "18:22.18",
+      "holder": "Nur Haziq Samil",
+      "location": "5th Brunei Open Championships",
+      "date": "2016-10-28",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "28.59",
+      "holder": "Zeke Chan",
+      "location": "44th SEA Age Group Swimming Championships Malaysia 2022",
+      "date": "2022-12-19",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "59.68",
+      "holder": "Zeke Chan",
+      "location": "44th SEA Age Group Swimming Championships Malaysia 2022",
+      "date": "2022-12-17",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:11.73",
+      "holder": "Zeke Chan",
+      "location": "29th Brunei Age Group Championships 2022",
+      "date": "2022-06-11",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "27.27",
+      "holder": "Christian Nikles",
+      "location": "1st SEA Champ. Singapore",
+      "date": "2012-06-16",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:00.59",
+      "holder": "Christian Nikles",
+      "location": "1st Brunei OPEN",
+      "date": "2012-11-25",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:15.58",
+      "holder": "Zeke Chan",
+      "location": "29th Brunei Age Group Championships 2022",
+      "date": "2022-06-12",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "31.26",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "2nd Brunei OPEN",
+      "date": "2013-11-22",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:07.90",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "2nd Brunei OPEN",
+      "date": "2013-11-24",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:29.78",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "2nd Brunei OPEN",
+      "date": "2013-11-23",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:18.13",
+      "holder": "Joel Ling",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:59.37",
+      "holder": "Joel Ling",
+      "location": "28th Brunei Age Group Championships 2021",
+      "date": "2021-04-02",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "28.07",
+      "holder": "Hayley Wong",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-24",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:01.19",
+      "holder": "Hayley Wong",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-26",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:19.18",
+      "holder": "Nurizyenny Hj Muslim",
+      "location": "Penang",
+      "date": "2009-06-01",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "4:53.18",
+      "holder": "Hayley Wong",
+      "location": "30th Brunei Age Group Swimming Championships 2023",
+      "date": "2023-06-11",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "10:43.03",
+      "holder": "Felicia Lee Li Ern",
+      "location": "Brunei",
+      "date": "2007-06-24",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "1500m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "22:14.49",
+      "holder": "Natasha Sia",
+      "location": "25th Brunei Age Group Championships 2017",
+      "date": "2017-04-28",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "32.04",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "46th SEA Age Group Swimming Championships, Bangkok",
+      "date": "2024-12-08",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:12.27",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "2nd Brunei Darussalam Schools Games",
+      "date": "2024-11-20",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:36.94",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "46th SEA Age Group Swimming Championships, Bangkok",
+      "date": "2024-12-07",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "29.31",
+      "holder": "Hayley Wong",
+      "location": "7th Commonwealth Youth Games, Trinidad & Tobago 2023",
+      "date": "2023-08-06",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:06.00",
+      "holder": "Hayley Wong",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-24",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:35.48",
+      "holder": "Hayley Wong",
+      "location": "19th FINA World Championships, Budapest 2022",
+      "date": "2022-06-21",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "35.19",
+      "holder": "Hayley Wong",
+      "location": "7th Commonwealth Youth Games, Trinidad & Tobago 2023",
+      "date": "2023-08-07",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:19.74",
+      "holder": "Emma Yusuf",
+      "location": "7th Brunei Sprints Swimming Championships",
+      "date": "2020-02-15",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:53.79",
+      "holder": "Hayley Wong",
+      "location": "7th Commonwealth Youth Games, Trinidad & Tobago 2023",
+      "date": "2023-08-06",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:34.65",
+      "holder": "Hayley Wong",
+      "location": "20th Sukma Games, Malaysia",
+      "date": "2022-09-20",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "5:29.06",
+      "holder": "Hayley Wong",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-25",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "24.39",
+      "holder": "Christian Nikles",
+      "location": "FINA World Junior Champs - Singapore",
+      "date": "2015-08-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "53.59",
+      "holder": "Zeke Chan",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-26",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:59.95",
+      "holder": "Zeke Chan",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-25",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "4:23.50",
+      "holder": "Anderson Lim",
+      "location": "BSS TYR May Meet Florida",
+      "date": "2013-05-11",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "9:29.82",
+      "holder": "Nathaniel Nikles",
+      "location": "22nd Brunei Age Group Championships 2014",
+      "date": "2014-04-20",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "1500m Freestyle",
+      "gender": "M",
+      "course": "LCM",
+      "time": "17:46.65",
+      "holder": "Anderson Lim",
+      "location": "BSS TYR May Meet, Florida",
+      "date": "2013-05-18",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "27.86",
+      "holder": "Joel Ling",
+      "location": "46th SEA Age Group Swimming Championships, Bangkok",
+      "date": "2024-12-08",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "59.18",
+      "holder": "Zeke Chan",
+      "location": "45th SEA Age Group Swimming Championships, Jakarta",
+      "date": "2023-08-24",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:11.51",
+      "holder": "Joel Ling",
+      "location": "XXI SUKMA Games, Kuching, Malaysia",
+      "date": "2024-08-20",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "26.37",
+      "holder": "Christian Nikles",
+      "location": "Fina World Junior Champs - Singapore",
+      "date": "2015-08-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "58.81",
+      "holder": "Christian Nikles",
+      "location": "FINA World Junior Champs - Singapore",
+      "date": "2015-08-26",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:19.24",
+      "holder": "Anderson Lim",
+      "location": "Florida, USA",
+      "date": "2012-02-26",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "31.23",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "22nd Brunei Age Group Championships 2014",
+      "date": "2014-04-18",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "1:08.08",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "22nd Brunei Age Group Championships 2014",
+      "date": "2014-04-20",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:33.56",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "45th Singapore Age Group Championships",
+      "date": "2014-03-22",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "2:11.01",
+      "holder": "Zeke Chan",
+      "location": "32nd Brunei Age Group Swimming Championships 2025",
+      "date": "2025-04-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "LCM",
+      "time": "5:01.64",
+      "holder": "Christian Nikles",
+      "location": "2nd Brunei Open",
+      "date": "2013-11-23",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "27.51",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Borneo Games, Kuching 2025",
+      "date": "2025-09-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:00.90",
+      "holder": "Hayley Wong",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:12.56",
+      "holder": "Tiara Shahril Anwar",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-15",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "4:39.54",
+      "holder": "Tiara Shahril Anwar",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-15",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "800m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "9:45.45",
+      "holder": "Tiara Shahril Anwar",
+      "location": "3rd Brunei OPEN",
+      "date": "2014-11-16",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "1500m Freestyle",
+      "gender": "F",
+      "course": "LCM",
+      "time": "19:05.55",
+      "holder": "Tiara Shahril Anwar",
+      "location": "22nd Brunei Age Group Championships 2014",
+      "date": "2014-04-18",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "30.76",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "14th ASEAN Schools Games 2025, Brunei Darussalam",
+      "date": "2025-11-26",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:07.78",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "14th ASEAN Schools Games 2025, Brunei Darussalam",
+      "date": "2025-11-25",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:33.97",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Borneo Games, Kuching 2025",
+      "date": "2025-09-26",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "29.54",
+      "holder": "Hayley Wong",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-29",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:08.63",
+      "holder": "Hayley Wong",
+      "location": "13th ASEAN Schools Games, Danang Vietnam",
+      "date": "2024-06-04",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:39.86",
+      "holder": "Maria Grace Koh",
+      "location": "Brunei",
+      "date": "2008-06-21",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "34.91",
+      "holder": "Hayley Wong",
+      "location": "11th Asian Age Group Championships, Philippines",
+      "date": "2024-02-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "1:19.74",
+      "holder": "Hayley Wong",
+      "location": "13th ASEAN Schools Games, Danang Vietnam",
+      "date": "2024-06-04",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:50.35",
+      "holder": "Hayley Wong",
+      "location": "31st Brunei Age Group Swimming Championships 2024",
+      "date": "2024-06-30",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "2:35.20",
+      "holder": "Hayley Wong",
+      "location": "13th ASEAN Schools Games, Danang Vietnam",
+      "date": "2024-06-05",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "LCM",
+      "time": "5:42.55",
+      "holder": "Ashley Chai",
+      "location": "8th Brunei Open & Masters Champs",
+      "date": "2019-09-13",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "42.62",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "7-9 years old Swimming Championships",
+      "date": "2019-10-27",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "56.95",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-13",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "59.00",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-13",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "55.23",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-12",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "49.67",
+      "holder": "Naomi Chan",
+      "location": "7-9 years old Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "55.41",
+      "holder": "Ytm Muneerah Bilah",
+      "location": "3rd Brunei & Masters Champs",
+      "date": "2018-03-04",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:02.71",
+      "holder": "Mia Tan Wan Ru",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:04.74",
+      "holder": "Mia Tan Wan Ru",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "7 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "35.21",
+      "holder": "Danniel Chan",
+      "location": "7-9 years old Swimming Championships",
+      "date": "2019-10-27",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:40.61",
+      "holder": "Abd Muaaz Al'Rashyee Hj Haszriman",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-08",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "49.06",
+      "holder": "Trevor Hii",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "53.87",
+      "holder": "Jax Lim",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-08",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:54.94",
+      "holder": "Jax Lim",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-10",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "45.04",
+      "holder": "Trevor Hii",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:40.02",
+      "holder": "Jax Lim",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-09",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "41.73",
+      "holder": "Naomi Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:59.79",
+      "holder": "Nurul Saleha Suriyan Suardy Joffry",
+      "location": "6th Brunei Swimming Championships",
+      "date": "2022-10-01",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "46.50",
+      "holder": "Naomi Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:04.49",
+      "holder": "Naomi Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "49.22",
+      "holder": "Naomi Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "8 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:20.06",
+      "holder": "Nurul Saleha Suriyan Suardy Joffry",
+      "location": "6th Brunei Swimming Championships",
+      "date": "2022-10-02",
+      "age_group": "8 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "35.32",
+      "holder": "Jax Lim",
+      "location": "7-9 years old Swimming Championships, Brunei",
+      "date": "2024-11-03",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:18.31",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-08",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:52.91",
+      "holder": "Jax Lim",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "40.12",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-08",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:29.30",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-08",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:22.53",
+      "holder": "Jax Lim",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "48.94",
+      "holder": "Jax Lim",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:45.07",
+      "holder": "Jax Lim",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:45.43",
+      "holder": "Jax Lim",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "39.21",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-10",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:30.64",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-09",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:31.55",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-09",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:18.94",
+      "holder": "Trevor Hii",
+      "location": "3rd Sarawak Short Course Sprint 2023, Kuching, Malaysia",
+      "date": "2023-09-09",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "36.66",
+      "holder": "Breanna Lee Le Er",
+      "location": "7-9 years old Swimming Championships",
+      "date": "2016-09-25",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:22.70",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:12.44",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "6:26.80",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "41.80",
+      "holder": "Naomi Chan",
+      "location": "7-9 years old Swimming Championships 2025",
+      "date": "2025-06-15",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:38.04",
+      "holder": "Naomi Chan",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:38.27",
+      "holder": "Naomi Chan",
+      "location": "3rd Brunei National Age Group Swimming Championships",
+      "date": "2025-02-09",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "51.66",
+      "holder": "Mia Tan Wan Ru",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:57.51",
+      "holder": "Mia Tan Wan Ru",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-28",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:56.42",
+      "holder": "Mia Tan Wan Ru",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "44.88",
+      "holder": "Naomi Chan",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:44.23",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:44.23",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:45.18",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "8:14.56",
+      "holder": "Breanna Lee Le Er",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "9 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "32.65",
+      "holder": "Zeke Chan",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:14.26",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:41.36",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "36.71",
+      "holder": "Zeke Chan",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:23.72",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:59.35",
+      "holder": "Trevor Hii",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "43.78",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:34.13",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:29.26",
+      "holder": "Alexander Lim Zhi Shen",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-03",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "35.85",
+      "holder": "Zeke Chan",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:29.15",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:22.03",
+      "holder": "Trevor Hii",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:22.95",
+      "holder": "Zeke Chan",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:57.42",
+      "holder": "Jax Lim",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "32.40",
+      "holder": "Breanna Lee Le Er",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:24.22",
+      "holder": "Emilka Lim Zhi Yi",
+      "location": "2nd Brunei Open & Masters Champs",
+      "date": "2017-02-18",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:05.16",
+      "holder": "Emilka Lim Zhi Yi",
+      "location": "2nd Brunei Open and Masters Champs",
+      "date": "2017-02-19",
+      "age_group": "10 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "6:57.63",
+      "holder": "Eva Adelleeya Haszriman",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "41.44",
+      "holder": "Emilka Lim Zhi Yi",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:32.24",
+      "holder": "Emilka Lim Zhi Yi",
+      "location": "2nd Brunei Open & Masters Champs",
+      "date": "2017-02-18",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:43.81",
+      "holder": "Eva Adelleeya Haszriman",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "48.69",
+      "holder": "Mia Tan Wan Ru",
+      "location": "3rd Brunei National Age Group Swimming Championships",
+      "date": "2025-02-09",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:47.63",
+      "holder": "Mia Tan Wan Ru",
+      "location": "3rd Brunei National Age Group Swimming Championships",
+      "date": "2025-02-08",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:47.51",
+      "holder": "Mia Tan Wan Ru",
+      "location": "3rd Brunei National Age Group Swimming Championships",
+      "date": "2025-02-08",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "35.31",
+      "holder": "Breanna Lee Le Er",
+      "location": "2nd ISB Sprints & Masters SC Championshps",
+      "date": "2017-10-15",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:26.89",
+      "holder": "Emma Chua",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-27",
+      "age_group": "10 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:29.56",
+      "holder": "Breanna Lee Le Er",
+      "location": "2nd Brunei Open & Masters Champs",
+      "date": "2017-02-19",
+      "age_group": "10 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:26.99",
+      "holder": "Emilka Lim Zhi Yi",
+      "location": "2nd Brunei Open & Masters Champs",
+      "date": "2017-02-18",
+      "age_group": "10 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "31.58",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:10.09",
+      "holder": "Danniel Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:29.32",
+      "holder": "Zeke Chan",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "5:25.49",
+      "holder": "Mathias Narcis",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "35.88",
+      "holder": "Zeke Chan",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:19.03",
+      "holder": "Zeke Chan",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:51.78",
+      "holder": "Danniel Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "42.77",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:31.64",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:31.83",
+      "holder": "Alexander Lim Zhi Shen",
+      "location": "3rd Brunei National Age Group Swimming Championships",
+      "date": "2025-02-08",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "33.94",
+      "holder": "Danniel Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:18.83",
+      "holder": "Danniel Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:47.58",
+      "holder": "Zeke Chan",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:21.23",
+      "holder": "Danniel Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:58.49",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "5:52.12",
+      "holder": "Zeke Chan",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "31.77",
+      "holder": "Hayley Wong",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-12",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:10.93",
+      "holder": "Hayley Wong",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-13",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:32.93",
+      "holder": "Hayley Wong",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-12",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "6:21.98",
+      "holder": "Hani Qaireena Hasnul Alwe",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-03",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "35.79",
+      "holder": "Hayley Wong",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:19.00",
+      "holder": "Hayley Wong",
+      "location": "4th Isb Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:20.57",
+      "holder": "Hani Qaireena Hasnul Alwe",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-02",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "38.69",
+      "holder": "Hayley Wong",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-27",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:26.10",
+      "holder": "Hayley Wong",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-12",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:25.65",
+      "holder": "Hani Qaireena Hasnul Alwe",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-03",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "33.40",
+      "holder": "Hayley Wong",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:15.88",
+      "holder": "Hayley Wong",
+      "location": "2nd ISB Invitational Championships",
+      "date": "2019-10-12",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:04.51",
+      "holder": "Breanna Lee Le Er",
+      "location": "3rd Brunei Open & Masters Champs",
+      "date": "2018-03-04",
+      "age_group": "11 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:17.52",
+      "holder": "Hayley Wong",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "11 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:45.30",
+      "holder": "Hayley Wong",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-27",
+      "age_group": "11 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "8:07.48",
+      "holder": "Hani Qaireena Hasnul Alwe",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "11 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "26.43",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "57.95",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:08.19",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "4:45.51",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "30.67",
+      "holder": "Joel Ling",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:05.89",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:23.05",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "29.80",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:05.48",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:25.46",
+      "holder": "Adrian Lee",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "33.37",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:13.13",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:53.42",
+      "holder": "Dylan Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:08.27",
+      "holder": "Danniel Chan",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:27.45",
+      "holder": "Elyas Muqry Hj Huzaimi",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "6:08.69",
+      "holder": "Mathias Narcis",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "28.51",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:02.58",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-17",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:33.20",
+      "holder": "Abbey Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "5:14.36",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "32.50",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:11.07",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:35.11",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "31.60",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-17",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:08.10",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "35.62",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:18.15",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-17",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "3:04.83",
+      "holder": "Emma Yusof",
+      "location": "3rd Brunei Open & Masters Champs",
+      "date": "2018-03-04",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:09.48",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-17",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:29.42",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-18",
+      "age_group": "12-13 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "24.55",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-14",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "52.99",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-13",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:55.50",
+      "holder": "Zeke Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "4:24.16",
+      "holder": "Nur Haziq Samil",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "27.53",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-13",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "58.76",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-13",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:08.89",
+      "holder": "Zeke Chan",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "26.52",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-14",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "59.36",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-14",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "3:22.66",
+      "holder": "Danish Luth Arthur Md Yazmin",
+      "location": "4th Brunei Open & Masters Championships",
+      "date": "2019-03-16",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "31.19",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "FINA World SC Champs, Istanbul",
+      "date": "2012-12-15",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:10.67",
+      "holder": "Dylan Wong",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:30.49",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "FINA World Cup, Singapore",
+      "date": "2012-11-10",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "59.97",
+      "holder": "Zeke Chan",
+      "location": "2nd Sarawak Short Course Sprint 2022, Kuching, Malaysia",
+      "date": "2022-08-13",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:14.41",
+      "holder": "Joel Ling",
+      "location": "5th Brunei Sprints & Masters Swimming Championships",
+      "date": "2021-07-18",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "5:13.16",
+      "holder": "Nur Haziq Samil",
+      "location": "1st Brunei Open & Masters SC Championships",
+      "date": "21-22 May 2016",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "27.26",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "59.93",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:14.11",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "4:49.78",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "31.27",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:07.71",
+      "holder": "Hayley Wong",
+      "location": "6th Brunei Swimming Championships",
+      "date": "2022-10-01",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:33.13",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "8th Brunei Open & Masters Swimming Championships",
+      "date": "2024-11-02",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "28.78",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:05.68",
+      "holder": "Hayley Wong",
+      "location": "6th Brunei Swimming Championships",
+      "date": "2022-10-01",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:34.14",
+      "holder": "Hayley Wong",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "33.46",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:17.10",
+      "holder": "Emma Yusof",
+      "location": "4th ISB Sprints & Masters Swimming Championships",
+      "date": "2019-10-26",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:50.76",
+      "holder": "Hayley Wong",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-04",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:07.03",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:28.86",
+      "holder": "Hayley Wong",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "5:20.86",
+      "holder": "Hayley Wong",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "14-15 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "23.86",
+      "holder": "Joel Ling",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "51.56",
+      "holder": "Zeke Chan",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:55.79",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-19",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "M",
+      "course": "SCM",
+      "time": "4:08.06",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-17",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "27.13",
+      "holder": "Zeke Chan",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "57.23",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:05.03",
+      "holder": "Zeke Chan",
+      "location": "7th Brunei Open & Masters Swimming Championships",
+      "date": "2023-11-18",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "25.80",
+      "holder": "Christian Nikles",
+      "location": "ASA South West Regionals, UK",
+      "date": "2015-11-08",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "57.03",
+      "holder": "Christian Nikles",
+      "location": "ASA South West Regionals, UK",
+      "date": "2015-11-07",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:26.57",
+      "holder": "Nur Haziq Samil",
+      "location": "3rd Brunei Open & Masters Championships",
+      "date": "2018-03-04",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "29.90",
+      "holder": "Muhammad Isa Ahmad",
+      "location": "FINA World SC Champ. Windsor",
+      "date": "2016-12-10",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "1:04.17",
+      "holder": "Zeke Chan",
+      "location": "Swim England National Winter Championships, UK",
+      "date": "2024-12-05",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:33.71",
+      "holder": "Joel Ling",
+      "location": "6th Brunei Swimming Championships",
+      "date": "2022-10-02",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "58.47",
+      "holder": "Joel Ling",
+      "location": "17th World Aquatics Swimming Championships, Budapest",
+      "date": "2024-12-12",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "2:06.01",
+      "holder": "Zeke Chan",
+      "location": "Swim England National Winter Championships, UK",
+      "date": "2024-12-05",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m IM",
+      "gender": "M",
+      "course": "SCM",
+      "time": "5:13.45",
+      "holder": "Nur Haziq Samil",
+      "location": "2nd Brunei Open & Masters Champs",
+      "date": "2017-02-19",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "26.77",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "59.26",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:08.15",
+      "holder": "Tiara Shahril Anwar",
+      "location": "FINA World SC Champ. Doha",
+      "date": "2014-12-07",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "400m Freestyle",
+      "gender": "F",
+      "course": "SCM",
+      "time": "4:44.80",
+      "holder": "Hayley Wong",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "30.10",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:05.64",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-07",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Backstroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:33.13",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "9th Brunei Open & Masters Swimming Championships",
+      "date": "2025-06-13",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "28.85",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:04.99",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Butterfly",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:42.36",
+      "holder": "Andra Chai",
+      "location": "1st Brunei National Age Group Swimming Championships",
+      "date": "2022-12-03",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "50m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "33.32",
+      "holder": "Hayley Wong",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:14.10",
+      "holder": "Hayley Wong",
+      "location": "5th Brunei National Age Group Sprints",
+      "date": "2024-01-28",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m Breaststroke",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:44.66",
+      "holder": "Hayley Wong",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-27",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "100m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "1:07.28",
+      "holder": "Sharmeen Md Mharvin",
+      "location": "6th Brunei National Age Group Sprints",
+      "date": "2025-12-06",
+      "age_group": "16-18 years"
+    },
+    {
+      "event": "200m IM",
+      "gender": "F",
+      "course": "SCM",
+      "time": "2:28.66",
+      "holder": "Hayley Wong",
+      "location": "2nd Brunei National Age Group Swimming Championships",
+      "date": "2024-04-28",
+      "age_group": "16-18 years"
+    }
   ]
 }
