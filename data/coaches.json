@@ -1,0 +1,73 @@
+{
+  "title": "BASA Affiliated Coaches & Swim Instructors",
+  "updated": "2025-05-01",
+  "_instructions": "Add or edit coaches below. Required fields: name, title, type ('club' or 'freelance'), disciplines (array). If type='club', also include 'affiliation' (the club name). Optional fields: qualifications, email, phone, photo (URL or filename in images/coaches/). Save the file and refresh the website.",
+  "coaches": [
+    {
+      "name": "Pending update",
+      "title": "Head Coach",
+      "type": "club",
+      "affiliation": "Aqua Phoenix Swim Club",
+      "disciplines": ["Swimming"],
+      "qualifications": "World Aquatics Level 2",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    },
+    {
+      "name": "Pending update",
+      "title": "Swim Instructor",
+      "type": "club",
+      "affiliation": "Mabohai Swimming Club",
+      "disciplines": ["Swimming"],
+      "qualifications": "World Aquatics Level 1",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    },
+    {
+      "name": "Pending update",
+      "title": "Head Coach",
+      "type": "club",
+      "affiliation": "Hammerhead Swimming Club",
+      "disciplines": ["Swimming", "Open Water Swimming"],
+      "qualifications": "Pending update",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    },
+    {
+      "name": "Pending update",
+      "title": "Coach",
+      "type": "club",
+      "affiliation": "Panaga Stingrays",
+      "disciplines": ["Swimming"],
+      "qualifications": "Pending update",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    },
+    {
+      "name": "Pending update",
+      "title": "Freelance Swim Instructor",
+      "type": "freelance",
+      "affiliation": "",
+      "disciplines": ["Swimming", "Learn-to-Swim"],
+      "qualifications": "Pending update",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    },
+    {
+      "name": "Pending update",
+      "title": "Freelance Coach",
+      "type": "freelance",
+      "affiliation": "",
+      "disciplines": ["Diving"],
+      "qualifications": "Pending update",
+      "email": "",
+      "phone": "",
+      "photo": ""
+    }
+  ]
+}
